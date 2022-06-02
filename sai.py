@@ -47,7 +47,7 @@ while(loopme == 1):
                 print("Can't Play.")
 
          # Installing
-        elif (t.find("ultron install") != -1):
+        elif (t.find("sai install") != -1):
 
             le = t.find("sai install") + len("sai install") + 1
             t = t[le:]
